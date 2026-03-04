@@ -4056,20 +4056,20 @@ body {
     margin-top: 0;
   }
   .header__discount {
-    width: 31vw;
-    height: 31vw;
-    top: 22vw;
-    left: 46vw;
+    width: 26vw;
+    height: 26vw;
+    top: 24vw;
+    left: 48vw;
   }
   .header__sale-info {
     margin-top: 3vw;
     font-size: 4.5vw;
   }
   .header__discount-number {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .header__discount-text {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .header__decor .header__boot-3 {
     right: 34%;
