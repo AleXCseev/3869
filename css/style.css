@@ -1067,6 +1067,18 @@ body {
   margin-bottom: 35px;
 }
 
+.info__text-bottom {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+  color: #8e492c;
+}
+
+.info__price {
+  margin-bottom: 20px;
+}
+
 .video__section {
   width: 100%;
   height: auto;
@@ -1185,16 +1197,17 @@ body {
   line-height: 1;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: right;
+  text-align: center;
   margin-bottom: 64px;
 }
 
 .advantage__left {
-  width: 600px;
+  width: 440px;
   height: 360px;
   position: absolute;
-  left: 50px;
-  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 160px;
 }
 
 .advantage__left-img {
@@ -1783,7 +1796,19 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 88px;
+  margin-bottom: 20px;
+}
+
+.review__block-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .review__slider {
@@ -2019,7 +2044,7 @@ body {
 }
 .footer__section-wrapper .header__decor .footer__boot-2 {
   position: absolute;
-  top: 24%;
+  top: 45%;
   left: 86%;
   -webkit-transform: translate(-50%, -50%) rotate(-10deg);
   -moz-transform: translate(-50%, -50%) rotate(-10deg);
@@ -2027,7 +2052,7 @@ body {
   -o-transform: translate(-50%, -50%) rotate(-10deg);
   transform: translate(-50%, -50%) rotate(-10deg);
   z-index: 1;
-  width: 90% !important;
+  width: 120% !important;
 }
 .footer__section-wrapper .header__decor .footer__boot-3 {
   position: absolute;
@@ -2967,6 +2992,10 @@ body {
   margin-right: 5px;
 }
 
+.footer__price {
+  margin: 60px 0 20px;
+}
+
 .order__form .header__order-btn {
   width: 163px;
   height: 50px;
@@ -3104,7 +3133,7 @@ body {
   }
 
   .advantage__section-title {
-    font-size: 140px;
+    font-size: 60px;
   }
 
   .advantage__block {
@@ -3636,6 +3665,7 @@ body {
     left: auto;
     top: auto;
     bottom: auto;
+    transform: none;
   }
 
   .advantage__left {
@@ -3832,8 +3862,8 @@ body {
 
   .footer__section-wrapper .header__decor .footer__boot-2 {
     top: 33%;
-    left: 75%;
-    width: 70% !important;
+    left: 50%;
+    width: 90% !important;
   }
 
   .footer__section-wrapper .header__decor .footer__boot-3 {
@@ -4024,8 +4054,13 @@ body {
   }
 
   .info__sale-title {
-    font-size: 12vw;
+    font-size: 10vw;
     margin-bottom: 7vw;
+  }
+
+  .info__text-bottom {
+    margin-top: 4vw;
+    font-size: 5vw;
   }
 
   .advantage__section-title {
@@ -4037,6 +4072,9 @@ body {
     font-size: 9vw;
     margin-top: -17vw;
     margin-bottom: 21px;
+  }
+  .info__price {
+    margin-bottom: 3vw;
   }
 
   .header__title {
@@ -4113,6 +4151,10 @@ body {
     font-size: 10vw;
   }
 
+  .footer__price {
+    margin: 10vw 0 5vw;
+  }
+
   .card__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4163,9 +4205,18 @@ body {
   }
 
   .card__photo-wrapper {
-    width: 24.5vw;
-    height: 16vw;
+    width: 40vw;
+    height: 25vw;
     margin-bottom: 4.5vw;
+  }
+
+  .card__info-bold {
+    text-align: center;
+    margin-bottom: 3vw;
+  }
+
+  .price {
+    justify-content: center;
   }
 
   .card__info-text {
@@ -4196,9 +4247,9 @@ body {
   }
 
   .footer__section-wrapper .header__decor .footer__boot-2 {
-    top: 38%;
-    left: 63%;
-    width: 42% !important;
+    top: 41%;
+    left: 40%;
+    width: 65% !important;
   }
 
   .footer__section-wrapper .header__decor .footer__boot-3 {
